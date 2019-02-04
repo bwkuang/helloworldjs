@@ -1,7 +1,4 @@
-function sayHelloWorld() {
+const helloWorldShouter = require('./helloWorldLibrary.js');
 
-    setInterval(function(){console.log("Hello World")}, 1000); 
-}
-
-sayHelloWorld(); 
+helloWorldShouter.sayHelloWorld(); 
 
