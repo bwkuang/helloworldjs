@@ -1,4 +1,4 @@
 const helloWorldShouter = require('./helloWorldLibrary.js');
 
-helloWorldShouter.sayHelloWorld(); 
+helloWorldShouter.repeatHelloWorld(); 
 
